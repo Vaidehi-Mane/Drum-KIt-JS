@@ -1,0 +1,47 @@
+html{
+    font-size: 10;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/877/405/217/white-music-headphones-disk-wallpaper-preview.jpg');
+    background-size:cover;
+}
+body , html{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+ .keys{
+    display: flex;
+    flex: 1;
+    min-height: 100vh ;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.key{
+    border: 4 rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: 50px;
+    font-style:oblique ;
+    padding: 1rem  .5rem;
+    transition: all .07s ease;
+    width: 7rem;
+    text-align: center;
+    color:black;
+    background-color:#a9c6f5 ;
+       
+} 
+ .playing{
+    transform: scale(1.1);
+    
+}
+kbd{
+    display: block;
+    font-size: 2rem;
+}
+.sound{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color:#08090a;
+} 
